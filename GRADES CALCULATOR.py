@@ -28,7 +28,7 @@ elif final_grade >= 6:
     final_remarks = "Good"
 elif final_grade >= 5:
     final_remarks = "Satisfactory"
-elif final_grade >= 4.8:
+elif final_grade > 4.8:
     final_remarks = "Conditional"
 else:
  final_remarks = "Failure"
